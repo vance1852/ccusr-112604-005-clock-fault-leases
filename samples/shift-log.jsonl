@@ -1,0 +1,12 @@
+{"at": 10, "kind": "observation", "source": "t1", "partition": "blue", "host": "b1", "boot": 9, "ticks": 100, "action_time": 10, "bounds": [112, 116]}
+{"at": 11, "kind": "observation", "source": "t3", "partition": "blue", "host": "b2", "boot": 4, "ticks": 39, "action_time": 10, "bounds": [113, 117]}
+{"at": 12, "kind": "intent", "operation": "a9", "seat": "b11", "generation": 4, "action": "renew", "holder": "work-a", "requested_expiry": 144}
+{"at": 14, "kind": "effect", "operation": "a9", "seat": "b11", "generation": 4, "outcome": "unknown"}
+{"at": 15, "kind": "observation", "source": "t2", "partition": "blue", "host": "b1", "boot": 9, "ticks": 106, "action_time": 15, "bounds": [123, 135]}
+{"at": 16, "kind": "boot", "host": "b1", "boot": 10}
+{"at": 19, "kind": "intent", "operation": "b3", "seat": "b11", "generation": 4, "action": "reclaim", "holder": "work-a", "requested_expiry": null}
+{"at": 22, "kind": "observation", "source": "t3", "partition": "blue", "host": "b2", "boot": 4, "ticks": 50, "action_time": 22, "bounds": [138, 141]}
+{"at": 23, "kind": "observation", "source": "t4", "partition": "blue", "host": "b3", "boot": 6, "ticks": 71, "action_time": 22, "bounds": [139, 142]}
+{"at": 27, "kind": "effect", "operation": "a9", "seat": "b11", "generation": 4, "outcome": "void"}
+{"at": 30, "kind": "intent", "operation": "b5", "seat": "b11", "generation": 5, "action": "claim", "holder": "work-c", "requested_expiry": 175}
+{"at": 31, "kind": "effect", "operation": "b3", "seat": "b11", "generation": 4, "outcome": "committed"}

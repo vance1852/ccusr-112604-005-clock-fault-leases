@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "source": "t1",
+      "domain": "u0"
+    },
+    {
+      "source": "t2",
+      "domain": "u0"
+    },
+    {
+      "source": "t3",
+      "domain": "u1"
+    },
+    {
+      "source": "t4",
+      "domain": "u2"
+    }
+  ],
+  "partitions": [
+    {
+      "partition": "blue",
+      "source_domains_min": 2,
+      "freshness": 12
+    },
+    {
+      "partition": "green",
+      "source_domains_min": 2,
+      "freshness": 16
+    }
+  ],
+  "seats": [
+    {
+      "seat": "b11",
+      "partition": "blue",
+      "holder": "work-a",
+      "generation": 4,
+      "expires": 120
+    },
+    {
+      "seat": "g18",
+      "partition": "green",
+      "holder": "work-z",
+      "generation": 2,
+      "expires": 145
+    }
+  ]
+}
